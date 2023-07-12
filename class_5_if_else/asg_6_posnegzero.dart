@@ -1,10 +1,4 @@
-void main() {
-  check(0);
-  check(70);
-  check(-70);
-}
-
-void check(int a) {
+void checknum(int a) {
   if (a == 0) {
     print('The number is zero.');
   } else if (a > 0) {
@@ -13,3 +7,10 @@ void check(int a) {
     print('The number is negative.');
   }
 }
+
+void main() {
+  checkbum(0);
+  checknum(77);
+  checknum(-60);
+}
+
