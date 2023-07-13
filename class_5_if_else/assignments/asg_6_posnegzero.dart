@@ -9,8 +9,12 @@ void checknum(int a) {
 }
 
 void main() {
-  checkbum(0);
-  checknum(77);
-  checknum(-60);
+  checkNum(0);
+  checkNum(77);
+  checkNum(-60);
 }
 
+void checkNum(int a) {
+  String result = a > 0 ? "Positive" : (a < 0 ? "Negative" : "Zero");
+  print("The number $a is $result");
+}
